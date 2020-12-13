@@ -1,0 +1,46 @@
+{
+    "name": "Cyberpunk",
+    "displayName": "Cyberpunk",
+    "description": "A crazy cyberpunk theme",
+    "version": "1.2.5",
+    "publisher": "max-SS",
+    "galleryBanner": {
+        "color": "#0a0126",
+        "theme": "dark"
+    },
+    "engines": {
+        "vscode": "^1.18.0"
+    },
+    "license": "MIT",
+    "icon": "icon.png",
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Cyberpunk",
+                "uiTheme": "vs-dark",
+                "path": "./themes/cyberpunk-color-theme.json"
+            },
+            {
+                "label": "Activate UMBRA protocol",
+                "uiTheme": "vs-dark",
+                "path": "./themes/cyberpunk-umbra-color-theme.json"
+            },
+            {
+                "label": "Activate SCARLET protocol (beta)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/cyberpunk-scarlet-color-theme.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/prometheux-ar/cyberpunk"
+    },
+    "bugs": {
+        "url": "https://github.com/prometheux-ar/cyberpunk/issues",
+        "email": "cyberpunk.vsc@outlook.com"
+    }
+}
